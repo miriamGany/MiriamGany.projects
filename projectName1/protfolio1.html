@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio1</title>
+    <link rel="stylesheet" href="style/protfolio1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navContainer">
+        <div class="nav-image">
+            <img class="nav-profile" src="imgaes/profile-image.png" alt="profile-image">
+            <h3 class="nav-title"><a href="../index.html"> Miriam Gany</a></h3>
+        </div>
+        <ul class="nav-lists">
+            <li class="nav-list"><a href="../index.html#contact-area">צור קשר</a></li>
+            <li class="nav-list"><a href="../index.html#section-projects">שירותים</a></li>
+            <li class="nav-list"><a href="../index.html#section-aboutme">אודות</a></li>
+            <li class="nav-list"><a href="../index.html#the-header-container">ראשי</a></li>
+        </ul>
+        <div class="nav-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="ul-burger">
+            <li class="sidebar"><a href="../index.html#the-header-container">ראשי</a></li>
+            <li class="sidebar"><a href="../index.html#section-aboutme">אודות</a></li>
+            <li class="sidebar"><a href="../index.html#section-projects">שירותים</a></li>
+            <li class="sidebar"><a href="../index.html#contact-area">צור קשר</a></li>
+        </ul>
+    </nav>
+    <header id="the-header-container">
+        <h1 class="header-title">Here & Now</h1>
+        <p class="header-text">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,
+            בתחום הדפוס, ההדפסה והפרסום.</p>
+        </p>
+        <div class="btn">
+            <a class="buttom-btn" href="" download="">להורדת הפרויקט >></a>
+            <a class="buttom-btn" href="index.html"> לצפיה בפרוייקט>></a>
+        </div>
+    </header>
+    <section id="section-icons">
+        <img class="img-icon" src="imgaes/img-HTML.png" alt="img-HTML">
+        <img class="img-icon" src="imgaes/img-CSS.png" alt="img-CSS">
+        <img class="img-icon" src="imgaes/img-Bootstrap.png" alt="img-Bootstrap">
+        <img class="img-icon" src="imgaes/img-SASS.png" alt="img-SASS">
+    </section>
+
+    <div class="img-container">
+        <img class="image" src="imgaes/here&now.png" alt="here&now">
+
+    </div>
+    <section id="Copyright-area">
+        <p class="left-copyright">Miriam Gany</p>
+        <p class="right-copyright">כל הזכויות שמורות</p>
+    </section>
+
+    <script>
+        const navBurger = document.querySelector(".nav-burger");
+        const ulBurger = document.querySelector(".ul-burger");
+
+        navBurger.addEventListener("click", function () {
+            navBurger.classList.toggle("open");
+            ulBurger.classList.toggle("open")
+        })
+    </script>
+</body>
+
+</html>
