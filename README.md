@@ -26,4 +26,4 @@ If you'd like to contribute to this project, please follow these guidelines:
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact me at miriamgany@gmail.com
+If you have any questions or suggestions, feel free to contact me at miriamgany@gmail.com.
