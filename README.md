@@ -8,7 +8,7 @@ Bootstrap and sass .
 2. Install dependencies: `npm install`
 
 ## Usage
-To use this project, follow these steps:
+To use this project, follow these steps::
 1. Run the application: `npm start`
 2. Open your web browser and go to: `http://localhost:3000`
 3. index.html is the main file of this project .
