@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Assistant;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 .project-three-container {
     width: 100vw;
-    height: 1600px;
+    height: 1700px;
     background-color: #E5EEFF;
 
     .grid-container {
@@ -110,7 +111,7 @@ body {
 
             h1 {
                 color: #0EE1DA;
-                font-family: assistant-bold;
+                font-family: assistant;
                 font-size: 2.7rem;
                 margin-bottom: 14px;
             }
@@ -122,7 +123,7 @@ body {
             width: 350px;
             margin: 0 auto;
             color: #F9F9F9;
-            font-family: assistant-regular;
+            font-family: assistant;
             font-size: 0.875rem;
             text-align: center;
             display: block;
@@ -140,11 +141,13 @@ body {
                 font-size: 1.53rem;
                 text-align: center;
                 padding-top: 44px;
+                font-family: Assistant;
             }
 
             p {
                 padding-top: 16px;
                 padding-bottom: 14px;
+                font-family: Assistant;
             }
 
             form {
@@ -159,7 +162,7 @@ body {
 
                 .label-input label {
                     font-size: 0.7rem;
-                    font-family: assistant-bold;
+                    font-family: assistant;
                     color: #0EE1DA;
                     padding-top: 21px;
                     margin-bottom: 3.5px;
@@ -171,6 +174,7 @@ body {
                     background-color: #F6F6F6;
                     border: none;
                     border-bottom: 3.5px solid #0EE1DA;
+                    font-family: Assistant;
                 }
 
                 .label-input .text-area {
@@ -184,7 +188,7 @@ body {
                     height: 42px;
                     background-color: #0EE1DA;
                     color: #011560;
-                    font-family: heebo-bold;
+                    font-family: Assistant;
                     font-size: 1.05rem;
                     border: none;
                 }
@@ -235,9 +239,11 @@ body {
                 width: 100vw;
                 height: 340px;
                 padding-top: 100px;
+                font-family: Assistant;
 
                 h1 {
                     font-size: 2.25rem;
+                    font-family: Assistant;
                 }
             }
 
@@ -245,6 +251,7 @@ body {
             .purple-area p {
                 width: 300px;
                 margin: 0 auto;
+                font-family: Assistant;
             }
 
             img {
@@ -254,11 +261,12 @@ body {
 
             .purple-area {
                 width: 92vw;
-                height: 518px;
+                height: 530px;
                 margin: 0 auto;
 
                 h1 {
                     font-size: 1.563rem;
+                    font-family: Assistant;
                 }
             }
 
@@ -274,6 +282,7 @@ body {
 
             .label-input label {
                 font-size: 0.438rem;
+                font-family: Assistant;
             }
 
             .label-input input {
@@ -287,12 +296,47 @@ body {
             }
 
             input[type="submit"] {
-                width: 277px;
-                height: 33px;
+                width: 270px;
+                height: 25px;
                 font-size: 0.75rem;
+                font-family: Assistant;
             }
 
 
+        }
+    }
+}
+
+@media(max-width:390px) {
+    .project-three-container {
+        .grid-container {
+            .purple-area {
+                form {
+                    .label-input label {
+                        font-size: 15px;
+                        font-family: Assistant;
+                    }
+
+                    .label-input input {
+                        width: 240px;
+                        height: 40px;
+                    }
+
+                    .label-input .text-area {
+                        width: 240px;
+                        height: 90px;
+                    }
+
+                    input[type="submit"] {
+                        width: 240px;
+                        height: 33px;
+                        font-size: 0.75rem;
+                        font-family: Assistant;
+                    }
+                }
+
+
+            }
         }
     }
 }

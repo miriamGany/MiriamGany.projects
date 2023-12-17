@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Assistant;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 .project-three-container {
   width: 100vw;
-  height: 1600px;
+  height: 1700px;
   background-color: #E5EEFF;
 }
 .project-three-container .grid-container {
@@ -86,7 +87,7 @@ body {
 }
 .project-three-container .grid-container .blue-area h1 {
   color: #0EE1DA;
-  font-family: assistant-bold;
+  font-family: assistant;
   font-size: 2.7rem;
   margin-bottom: 14px;
 }
@@ -95,7 +96,7 @@ body {
   width: 350px;
   margin: 0 auto;
   color: #F9F9F9;
-  font-family: assistant-regular;
+  font-family: assistant;
   font-size: 0.875rem;
   text-align: center;
   display: block;
@@ -112,10 +113,12 @@ body {
   font-size: 1.53rem;
   text-align: center;
   padding-top: 44px;
+  font-family: Assistant;
 }
 .project-three-container .grid-container .purple-area p {
   padding-top: 16px;
   padding-bottom: 14px;
+  font-family: Assistant;
 }
 .project-three-container .grid-container .purple-area form {
   display: flex;
@@ -128,7 +131,7 @@ body {
 }
 .project-three-container .grid-container .purple-area form .label-input label {
   font-size: 0.7rem;
-  font-family: assistant-bold;
+  font-family: assistant;
   color: #0EE1DA;
   padding-top: 21px;
   margin-bottom: 3.5px;
@@ -139,6 +142,7 @@ body {
   background-color: #F6F6F6;
   border: none;
   border-bottom: 3.5px solid #0EE1DA;
+  font-family: Assistant;
 }
 .project-three-container .grid-container .purple-area form .label-input .text-area {
   width: 350px;
@@ -150,7 +154,7 @@ body {
   height: 42px;
   background-color: #0EE1DA;
   color: #011560;
-  font-family: heebo-bold;
+  font-family: Assistant;
   font-size: 1.05rem;
   border: none;
 }
@@ -178,14 +182,17 @@ body {
     width: 100vw;
     height: 340px;
     padding-top: 100px;
+    font-family: Assistant;
   }
   .project-three-container .grid-container .blue-area h1 {
     font-size: 2.25rem;
+    font-family: Assistant;
   }
   .project-three-container .grid-container .blue-area p,
   .project-three-container .grid-container .purple-area p {
     width: 300px;
     margin: 0 auto;
+    font-family: Assistant;
   }
   .project-three-container .grid-container img {
     width: 45vw;
@@ -193,11 +200,12 @@ body {
   }
   .project-three-container .grid-container .purple-area {
     width: 92vw;
-    height: 518px;
+    height: 530px;
     margin: 0 auto;
   }
   .project-three-container .grid-container .purple-area h1 {
     font-size: 1.563rem;
+    font-family: Assistant;
   }
   .project-three-container .grid-container .img2,
   .project-three-container .grid-container .img4,
@@ -210,6 +218,7 @@ body {
   }
   .project-three-container .grid-container .label-input label {
     font-size: 0.438rem;
+    font-family: Assistant;
   }
   .project-three-container .grid-container .label-input input {
     width: 277px;
@@ -220,8 +229,29 @@ body {
     height: 95px;
   }
   .project-three-container .grid-container input[type=submit] {
-    width: 277px;
+    width: 270px;
+    height: 25px;
+    font-size: 0.75rem;
+    font-family: Assistant;
+  }
+}
+@media (max-width: 390px) {
+  .project-three-container .grid-container .purple-area form .label-input label {
+    font-size: 15px;
+    font-family: Assistant;
+  }
+  .project-three-container .grid-container .purple-area form .label-input input {
+    width: 240px;
+    height: 40px;
+  }
+  .project-three-container .grid-container .purple-area form .label-input .text-area {
+    width: 240px;
+    height: 90px;
+  }
+  .project-three-container .grid-container .purple-area form input[type=submit] {
+    width: 240px;
     height: 33px;
     font-size: 0.75rem;
+    font-family: Assistant;
   }
 }/*# sourceMappingURL=style.css.map */
