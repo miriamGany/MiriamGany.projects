@@ -146,12 +146,14 @@ input {
     }
 
     img {
-        height: 219px;
+        height: 280px;
+        width: 435px;
     }
 
     @media (max-width: 300px) {
         img {
-            height: 219px;
+            height: 280px;
+            width: 400px;
         }
 
         .coffee-titel {
