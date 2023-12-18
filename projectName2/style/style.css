@@ -85,7 +85,7 @@ input {
 }
 
 .btn-control {
-    width: 166px;
+    width: 415px;
     height: 50px;
     color: var(--white-color);
     background: var(--blue-color) 0% 0% no-repeat padding-box;
@@ -145,6 +145,11 @@ input {
         font-size: 14px;
     }
 
+    .btn-control {
+        width: 286px;
+        height: 34px;
+    }
+
     img {
         height: 280px;
         width: 435px;
@@ -175,6 +180,11 @@ input {
         input {
             width: 228px;
             height: 30px;
+        }
+
+        .btn-control {
+            width: 286px;
+            height: 34px;
         }
     }
 

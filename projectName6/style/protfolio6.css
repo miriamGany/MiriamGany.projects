@@ -165,7 +165,7 @@ a {
 /* icons section */
 
 #section-icons {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     width: 100%;
     display: flex;
